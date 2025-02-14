@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+    src="https://kit.fontawesome.com/2e8d67deac.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">Tanmay <span> Patil</span></div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#third-sec">Portfolio</a></li>
+            <li><a href="#contact-container">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            <li><img src="elements/moon.png" class="dark-icon" alt="" onclick="darkMode()"></li>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+      </header>
+      <div class="first-section">
+        <div class="left">
+          <h1 class="heads">Hi!</h1>
+          <h1 class="heads head-text"><span class="typing-text"></span></h1>
+          <p>
+            <p>I design and develop experiences that make people's lives simpler through Web apps. I work with HTML, CSS, JavaScript, and React.</p>
+
+          </p>
+        </div>
+        <div class="right"><img src="" alt="" /></div>
+      </div>
+    </main>
+
+    <div class="second-section" id="about-section">
+      <div class="second-left">
+        <img src="elements/1.png" alt="" />
+      </div>
+      <div class="second-right">
+        <h2>About Me</h2>
+        <p>
+          I am a student passionate about learning and exploring new opportunities. With a strong interest in Web Development and technology. I actively build my skills through independent projects. My dedication to growth and innovation positions me for future success.
+
+        </p>
+        <div class="about-menu-container">
+          <ul>
+            <li class="about active-section skills">Skills</li>
+            <li class="about experience">Experience</li>
+            <li class="about education">Education</li>
+          </ul>
+          <div class="tab-contents active-tab" id="skills">
+            <li>React</li>
+            <li>Javascript</li>
+            <li> Html</li>
+            <li>  Css</li>
+            <li>Php</li>
+            <li> Mysql</li>
+           
+          </div>
+          <div class="tab-contents" id="experience">
+        
+          </div>
+          <div class="tab-contents" id="education">
+        March 2020(SSC)
+            <li>A. T. Zambare Vidyalaya, Jalgaon</li> 
+             <li>Grade: 87.60</li> 
+              <li>I have completed my class 10th education at A. T. Zambare Madhyamik Vidyalaya, Jalgaon</li>
+            <br/>
+          March 2022(HSC)
+          <li>M.J.College,Jalgaon</li> 
+          <li>Grade: 70.67</li> 
+           <li>I have completed my class 12th education at M.J.College, Jalgaon</li>
+           <br/>
+           Dr. D. Y. Patil College Of Engineering, Akurdi, Pune - Btech.
+<li>Branch: Information Technology(IT).</li>
+<li>I am currently pursuing a Bachelor's degree in Information Technology at Dr. D. Y. Patil College of Engineering, Akurdi, Pune.</li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+     <div class="third" id="third-sec">
+       <div class="third-section">
+         <h1>MY SERVICES</h1>
+         <div class="cards">
+           <div class="card card1">
+             <div class="image-container"><i class="fa-solid fa-code"></i></div>
+             <h2>Web Development</h2>
+             <div class="text-container">
+              Specializing in crafting responsive, user-centric websites and web applications. From front-end development to full-stack integration, I transform ideas into seamless digital experiences that drive and achieve business goals.
+              </div>
+              <button><i class="fa-solid fa-arrow-right"></i></i></button>
+            </div>
+            <div class="card card2">
+          <div class="image-container"><i class="fa-brands fa-html5"></i></div>
+          <h2>Backend Design</h2>
+          <div class="text-container">
+            Expert in building scalable, secure backend systems that power seamless digital experiences. I design and optimize databases, APIs, and server-side logic to ensure high performance, reliability, and data integrity.
+          </div>
+          <button><i class="fa-solid fa-arrow-right"></i></i></button>
+        </div>
+        <div class="card card3">
+          <br/>
+          <h2>UI/UX design</h2>
+          <div class="text-container">
+     
+            Specializing in user-centered design, I craft intuitive and visually appealing interfaces that bridge user needs with business goals. Through research, wireframing, and prototyping, I deliver seamless digital experiences that enhance usability and engagement. 
+          </div>
+          <button><i class="fa-solid fa-arrow-right"></i></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+      <div class="fourth">
+      <div class="fourth-section">
+        <h1>MY WORK</h1>
+        <div class="fourth-section-cards">
+          <div class="work-card">
+            <img src="elements/spotify3.jpg" alt="" />
+            <div class="card-text">
+              <h3>Spotify clone</h3>
+              <p>
+                Crafted a responsive Spotify clone using HTML, CSS, and JavaScript, featuring music playback, dynamic playlists, and a sleek user interface. Emulates core functionalities while prioritizing seamless interactions and modern design principles.
+              </p>
+              <a href="https://github.com/intensity4143/Netflix-clone"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="elements/res1.jpg" alt="" />
+            <div class="card-text">
+              <h3>Restaurant Website</h3>
+              <p>
+                Designed a responsive restaurant website using HTML, CSS, and JavaScript, showcasing dynamic menus, reservation booking, and an immersive gallery. 
+              </p>
+              <a href="https://github.com/intensity4143/Culture-connect"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="elements/port4.jpg" alt="" />
+            <div class="card-text">
+              <h3>Personal Portfolio</h3>
+              <p>
+                Built a  responsive portfolio website using HTML, CSS, and JavaScript, highlighting projects with interactive galleries, smooth animations, and a clean layout. Designed to showcase work effectively while prioritizing user-friendly navigation and professional branding.
+              </p>
+              <a href="https://github.com/intensity4143/personal-portfolio"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+    </div>
+  
+     <div id="contact-container">
+
+       <div class="contact">
+         <div class="contact-left">
+           <h1>Contact Me</h1>
+           <div class="gmail"><i class="fa-solid fa-envelope" onclick="sendEmail()"></i>tanmayp205@gmail.com</div>
+           <div class="number"><a href="tel:+917667410694"><i class="fa-solid fa-square-phone"></i></a>8975383367</div>
+           <div class="github"><a href="https://github.com/intensity4143" target="_blank"><i class="fa-brands fa-square-github"></i></a>Github</div>
+           <div class="buttons">
+            <a href="https://www.instagram.com/its_me_unreal?igsh=ejRid2dtbWZ1Y3Vp" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/pintu-sharma-2b6a33290/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/PintuSharma4143" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+          </div>
+           <div class="cv-button"><a href="elements/CV.pdf" download="">Download CV</a></div>
+          </div>
+      <div class="contact-right">
+        <form action="#">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea name="text" id="text" rows="5" placeholder="Your message"></textarea>  
+        </form>
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright © personal Portfolio &nbsp;
+      <i class="fa-solid fa-heart"></i>
+    </p>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
